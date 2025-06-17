@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #eee;
+background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+}
+
+html{
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+header {
+  font-family: 'Groovy Dopamine', sans-serif;
+  background-color: #ffbe02;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* NAV LINKS */
+.navbar > a {
+  margin: 0 40px;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navbar > a:hover {
+  color: #ffffff;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.anxiousLogo{
+  height: 35px;
+  margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+
+footer p {
+  color: #ffffff;
+  margin: 50px 0px 50px 100px;
+  text-align: start;
+}
+
+.footerIcon{
+  margin: 50px 100px 50px 0px;
+  text-align: end;
+}
+
+span{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+/* ABOUT */
+
+.aboutContainer{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.aboutContainer>img{
+  height: 500px;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  width: 700px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  color: #000000;
+  padding: 20px;
+
+}
+
+.about-text h2 {
+  color: #ffffff;
+  font-family: 'Groovy Dopamine', sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  margin-bottom: 10px;
+  letter-spacing: 4px;
+}
+
+.about-text p {
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.about-text ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 20px 0;
+
+}
+
+.about-text ul li {
+  font-size: 23px;
+  margin: 5px 0;
+  font-weight: bolder;
+}
+
+.about-text ul li strong {
+  color: #ffbe02;
+  text-shadow:
+  -1px -1px 0 #000,
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.about-text ul li strong:hover{
+  cursor: pointer;
+  color: #ffffff;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+/* SPOTIFY */
+.spotify{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.embed>iframe{
+  width: 500px;
+  margin: 50px;
+}
+
+.embed>h2{
+  color: #ffffff;
+  font-family: 'Groovy Dopamine', sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  text-align: center;
+}
+
+/* YOUTUBE */
+.youtube{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.youtube>h2{
+  color: #ffffff;
+  font-family: 'Groovy Dopamine', sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  letter-spacing: 4px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.youtube>iframe{
+  width: 700px;
+  height: 350px;
+  margin: 50px;
+}
